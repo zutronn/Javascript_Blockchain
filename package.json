@@ -1,0 +1,37 @@
+{
+  "name": "js_blockchain",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start1": "node ./bin/www",
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test",
+    "start": "node ./app/index",
+    "dev": "nodemon ./app/index"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "~1.4.3",
+    "crypto-js": "^3.1.9-1",
+    "debug": "~2.6.9",
+    "elliptic": "^6.4.0",
+    "express": "^4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "save": "^2.3.2",
+    "serve-favicon": "~2.4.5",
+    "uuid": "^3.2.1",
+    "ws": "^5.1.0"
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "nodemon": "^1.17.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
